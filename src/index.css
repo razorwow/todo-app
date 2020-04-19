@@ -1,0 +1,31 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo-item .input-field {
+    width: 100%;
+    margin: 0;
+}
+
+.todo-item-buttons {
+    margin: 0;
+    flex-shrink: 0;
+}
+
+.todo-item-buttons button {
+    margin-left: 10px;
+}
+.todo-item-title {
+    overflow: hidden;
+    display: flex;
+}
+.todo-item-title span {
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+}
+
+.todo-item-title .completed {
+    text-decoration: line-through;
+}
